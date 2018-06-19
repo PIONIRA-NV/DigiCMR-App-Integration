@@ -1,8 +1,12 @@
-Integrating the DigiCMR Android App
-===================================
+DigiCMR Android App integration
+===============================
 
-The DigiCMR App for the Android platform, can be used by App builders to add the e-CMR signing process to their existing Apps.
-The DigiCMR App can provide the following functionality to your Apps:
+The Xynaps platform facilitates authoring and issueing of the electronic consignment note. Our e-CMR implementation is conform the UNECE e-protocol and improves collaboration and communication between all involved parties.
 
-    * Show the e-CMR details for a passed CMR number.
-    * Start the signing process for a passed CMR number.
+The DigiCMR App for the Android platform, can be used by App builders to add the e-CMR signing process to their existing Apps:
+
+- Show the e-CMR details.
+- Start the signing process.
+
+More information can be found on: http://developers.xynaps.net
+
