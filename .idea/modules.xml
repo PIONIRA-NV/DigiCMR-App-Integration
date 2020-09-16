@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DigiCMR-App-Integration.iml" filepath="$PROJECT_DIR$/DigiCMR-App-Integration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DigiCMR-App-Integration.iml" filepath="$PROJECT_DIR$/.idea/modules/DigiCMR-App-Integration.iml" group="DigiCMR-App-Integration" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="DigiCMR-App-Integration/app" />
     </modules>
   </component>
 </project>
