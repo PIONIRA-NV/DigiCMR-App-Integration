@@ -10,7 +10,15 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/MyText" />
+        android:id="@+id/CmrNumber" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CMR Id" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CmrId" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,6 +51,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/UserId" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tenant Key" />
+
+    <EditText
+        android:id="@+id/TenantKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none" />
 
     <Button
         android:id="@+id/SignButton"
