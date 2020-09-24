@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         showCmrBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setExtras("be.pionira.digicmr.action.START_SIGNOFF_CONSIGNMENT_NOTE");
+                setExtras("be.pionira.digicmr.action.SHOW_CONSIGNMENT_NOTE_DETAILS");
             }
         });
     }
@@ -48,11 +48,14 @@ public class MainActivity extends AppCompatActivity {
         EditText txtTenantKey = (EditText) findViewById(R.id.TenantKey);
 
         if (!EditTextIsNullOrWhiteSpace(txtExternalId)) {
-            intent.putExtra("be.pionira.digicmr.extras.CONSIGNMENT_NOTE_EXTERNALID", txtExternalId.getText());
+            String externalId =  txtExternalId.getText().toString();
+            intent.putExtra("be.pionira.digicmr.extras.CONSIGNMENT_NOTE_EXTERNALID",externalId);
         } else if (!EditTextIsNullOrWhiteSpace(txtCmrNumber)) {
-            intent.putExtra("be.pionira.digicmr.extras.CONSIGNMENT_NOTE_NUMBER", txtCmrNumber.getText());
+            String cmrNumber = txtCmrNumber.getText().toString();
+            intent.putExtra("be.pionira.digicmr.extras.CONSIGNMENT_NOTE_NUMBER", cmrNumber);
         } else if (!EditTextIsNullOrWhiteSpace(txtCmrId)) {
-            intent.putExtra("be.pionira.digicmr.extras.CONSIGNMENT_NOTE_ID", txtCmrId.getText());
+            String cmrId = txtCmrId.getText().toString();
+            intent.putExtra("be.pionira.digicmr.extras.CONSIGNMENT_NOTE_ID", cmrId);
         } //Should probably throw an exception...
 
         if (!EditTextIsNullOrWhiteSpace(txtTenantKey)) {
